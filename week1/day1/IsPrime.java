@@ -10,7 +10,7 @@ public class IsPrime {
 	private void checkSingleValue() {
 		int num = 36;
 		if (num%2==0) {
-			System.out.println("The given number " +num +" is prime.");			
+			System.out.println("The given number " +num +" is not prime.");			
 		}
 	}
 	private void checkMultipleValue() {
