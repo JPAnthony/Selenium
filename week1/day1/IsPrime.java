@@ -17,10 +17,10 @@ public class IsPrime {
 		int num=36;
 		for (int i = 2; i < num-1; i++) {
 			if (i%2==0) {
-				System.out.println("The Given Number"+i+"is prime");
+				System.out.println("The Given Number"+i+"is not prime");
 			}
 			else {
-				System.out.println("The Given Number"+i+"is not prime");
+				System.out.println("The Given Number"+i+"is prime");
 			}
 			
 		}
